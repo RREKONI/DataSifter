@@ -14,9 +14,16 @@ What kind of arguments does it take "is_url()"
    is_url(
        text: str       # Any string is accepted
    ) -> bool       # Returns a boolean value (true/false)
-   ## "is_url" usage example
-   ### URL with protocol
-   ```python
+
+"is_url" usage example
+----------------------
+
+URL with protocol
+^^^^^^^^^^^^^^^^^
+
+.. code-block:: python
+
+
    import datasifter as ds
 
    text = "https://github.com"
