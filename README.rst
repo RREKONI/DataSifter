@@ -1,17 +1,19 @@
+===================
 What's new in 0.0.5?
-=====
+===================
 - Minor code optimization
 - Clearer tooltips with code examples
 - 3 new filters: "file_is(), is_bad_words(), and is_request()"
 - There's a logo
 
+=====================================
 DataSifter - Add filters to your code
-=====
+=====================================
 
 With the DataSifter module, you can use filters for your conditions in your code.
-
+=========================
 Without using DataSifter:
--------
+=========================
 .. code-block:: python
 import re
 
@@ -24,8 +26,9 @@ else:
 
 👎 **Why** write long RegExp patterns, if you can:
 
+=================
 Using DataSifter:
--------
+=================
 .. code-block:: python
 import DataSifter as ds
 
@@ -36,8 +39,9 @@ if ds.is_url(text):
 else:
     print("Text isn't link)
 
+===================================================
 All possible filters and what is specified in them:
-=====
+===================================================
 .. code-block:: python
 is_url(
     text: str
@@ -85,9 +89,9 @@ is_request(
     url: str
 )
 ```
-
+=========
 Constants
-=====
+=========
 ```
 1. EQUALS (==)
 2. LOWER (<)
@@ -96,9 +100,9 @@ Constants
 5. GREATER_OR_EQUALS (>=)
 6. NOT_EQUALS (!=)
 ```
-
+===============================
 Example of work with constants:
-=====
+===============================
 .. code-block:: python
 import DataSifter as ds
 
