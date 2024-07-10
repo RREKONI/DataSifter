@@ -1,15 +1,21 @@
-# What's new in 0.0.5?
+=====
+What's new in 0.0.5?
+=====
 - Minor code optimization
 - Clearer tooltips with code examples
 - 3 new filters: "file_is(), is_bad_words(), and is_request()"
 - There's a logo
 
-# DataSifter - Add filters to your code
+=====
+DataSifter - Add filters to your code
+=====
 
 With the DataSifter module, you can use filters for your conditions in your code.
 
-## Without using DataSifter:
-```python
+-------
+Without using DataSifter:
+-------
+.. code-block:: python
 import re
 
 text = "Hello Python!"
@@ -18,12 +24,13 @@ if bool(re.match(r"^((https?|ftp|file)://)?(www\.)?([-A-Za-z0-9+&@#/%?=~_|!:,.;]
     print("Text is link")
 else:
     print("Text isn't link")
-```
 
 👎 **Why** write long RegExp patterns, if you can:
 
-## Using DataSifter:
-```python
+-------
+Using DataSifter:
+-------
+.. code-block:: python
 import DataSifter as ds
 
 text = "pypi.org"
@@ -32,10 +39,11 @@ if ds.is_url(text):
     print("Text is link")
 else:
     print("Text isn't link)
-```
 
-# All possible filters and what is specified in them:
-```python
+=====
+All possible filters and what is specified in them:
+=====
+.. code-block:: python
 is_url(
     text: str
 ) -> bool
@@ -83,7 +91,9 @@ is_request(
 )
 ```
 
-# Constants
+=====
+Constants
+=====
 ```
 1. EQUALS (==)
 2. LOWER (<)
@@ -93,8 +103,10 @@ is_request(
 6. NOT_EQUALS (!=)
 ```
 
-# Example of work with constants:
-```python
+=====
+Example of work with constants:
+=====
+.. code-block:: python
 import DataSifter as ds
 
 text = "Hello Python!"
