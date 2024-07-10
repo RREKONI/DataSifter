@@ -1,1 +1,5 @@
-
+project = "datasifter"
+author = "Rekoni"
+copyright = "2024, Rekoni"
+version = "0.0.5.1"
+release = "0.0.5.1"
