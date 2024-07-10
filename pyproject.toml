@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "datasifter"
+version = "0.0.5.1"
+description = "A module that simplifies working with conditions through filtering. For example: determining whether a text is a link"
+authors = ["Rekoni <nilka.gacha@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+keywords = ["filters", "filter", "datasift"]
+classifiers = [
+    "Topic :: Text Processing :: Filters",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: POSIX :: Linux",
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+repository = "https://github.com/RREKONI/DataSifter"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+requests = ">=2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
