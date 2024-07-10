@@ -1,13 +1,3 @@
-
-What's new in 0.0.5?
-====================
-
-
-* Minor code optimization
-* Clearer tooltips with code examples
-* 3 new filters: "file_is(), is_bad_words(), and is_request()"
-* There's a logo
-
 DataSifter - Add filters to your code
 =====================================
 
