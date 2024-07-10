@@ -1,4 +1,4 @@
-project = "datasifter"
+project = "DataSifter"
 author = "Rekoni"
 copyright = "2024, Rekoni"
 version = "0.0.5.1"
